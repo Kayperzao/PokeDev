@@ -1,0 +1,98 @@
+.cartao-pokemon{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: none;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0px;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartao-pokemon .detalhes {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1px solid whitesmoke;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px; 
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-fada {
+    background-color: rgba(255, 51, 228, 0.87);
+}
+
+.tipo-fogo {
+    background-color: rgb(219, 95, 23);
+}
+
+.tipo-lutador {
+    background-color: rgb(216, 42, 42);
+}
+
+.tipo-dragao-areia {
+    background-color: rgba(221, 162, 35, 0.897);
+}
+
+.tipo-eletrico {
+    background-color: rgba(212, 200, 23, 0.781);
+}
+
+.tipo-psquico {
+    background-color: rgb(247, 43, 128);
+}
+
+
+
+
